@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.netguru.coroutinescancellationplayground.feature.HomeFragment"
+        tools:layout="@layout/fragment_launches" />
+
+    <fragment
+        android:id="@+id/exceptionsFragment"
+        android:name="com.netguru.coroutinescancellationplayground.feature.exceptions.ExceptionsFragment"
+        tools:layout="@layout/fragment_launches" />
+
+    <fragment
+        android:id="@+id/cancellationFragment"
+        android:name="com.netguru.coroutinescancellationplayground.feature.cancellation.CancellationFragment"
+        tools:layout="@layout/fragment_launches" />
+
+    <fragment
+        android:id="@+id/jobsFragment"
+        android:name="com.netguru.coroutinescancellationplayground.feature.jobs.JobsFragment"
+        tools:layout="@layout/fragment_launches" />
+
+</navigation>
